@@ -13,7 +13,7 @@ hardware_tier_name = "Small"
 
 # Enter the name of your project's default dataset. 
 # Ensure you have taken a snapshot of that dataset in order for it to be mounted to your flow tasks.
-dataset_name="workshop_dev"
+dataset_name="Testing_Credit_Workshop"
 snapshot_number=1
 
 
