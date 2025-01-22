@@ -7,7 +7,7 @@ from flytekitplugins.domino.artifact import Artifact, DATA, MODEL, REPORT
 import os
 
 # Set default Compute Environment and Hardware Tier for all tasks. 
-environment_name = "Credit Default Environment"
+environment_name = "Credit Workshop Test"
 hardware_tier_name = "Small"
 
 
