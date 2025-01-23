@@ -89,9 +89,9 @@ if scored:
             # Display prediction result
             st.subheader('Model Prediction:')
             if result == 1:
-                st.markdown(":green[REPAYMENT LIKELY]")
+                st.subheader(":green[REPAYMENT LIKELY]")
             else:
-                st.markdown(":red[HIGH RISK OF DEFAULT]")
+                st.subheader(":red[HIGH RISK OF DEFAULT]")
             
             # Create SHAP explainer
             explainer = shap.TreeExplainer(xgc)
